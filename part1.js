@@ -32,4 +32,4 @@ console.log('markBMI: ' + markBMI1)
 console.log('johnBMI: ' + johnBMI1)
 var markHigherBMI1 = markBMI1 > johnBMI1
 
-console.log('Mark có BMI cao hơn John hay không ?' + markHigherBMI1)
+console.log('Mark có BMI cao hơn John hay không ? ' + markHigherBMI1)

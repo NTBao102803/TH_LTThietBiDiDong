@@ -19,6 +19,8 @@ function calculateAverage(scores) {
   function determineWinner(dolphinsScores, koalasScores, minScore = 100) {
     const dolphinsAverage = calculateAverage(dolphinsScores);
     const koalasAverage = calculateAverage(koalasScores);
+
+  console.log(dolphinsAverage)
   
     if (dolphinsAverage > koalasAverage   
    && dolphinsAverage >= minScore) {
